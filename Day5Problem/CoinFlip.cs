@@ -118,5 +118,29 @@ namespace Day5Problem
                 }
             }
         }
+        public static void Vowel()
+        {
+            Console.WriteLine("Enter the Alphabet");
+            char a = Convert.ToChar(Console.ReadLine());
+            a = char.ToLower(a);
+            if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' )
+            {
+                Console.WriteLine("It is a Vowel");
+            }
+            else
+            {
+                Console.WriteLine("It is a Consonant");
+            }/*  Console.WriteLine("Enter the Character to be checked");
+            char a = Convert.ToChar(Console.ReadLine());
+            a = char.ToLower(a);
+            if( (a=='a') || (a='e') || (a='i') || (a='o') || (a='u'))
+            {
+                Console.WriteLine("It is a Vowel");
+            }
+            else
+            {
+                Console.WriteLine("It is a consonant");
+            }*/
+        }
     }
 }
