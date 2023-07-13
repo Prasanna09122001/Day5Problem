@@ -7,7 +7,8 @@ namespace Day5Problem
         static void Main()
         {
             Console.WriteLine("Solution for the Day Five Problem");
-            CoinFlip.play();
+            //CoinFlip.play();
+            CoinFlip.Leap();
         }
     }
 }
