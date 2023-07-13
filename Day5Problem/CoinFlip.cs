@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using System.Globalization;
 
 namespace Day5Problem
@@ -41,6 +42,17 @@ namespace Day5Problem
             {
                 Console.WriteLine("Write The Correct four digit Year");
             }
+        }
+        public static void Powerof2()
+        {
+            Console.WriteLine("Enter the value between 0-31 that to be Powered");
+            int a = Convert.ToInt32(Console.ReadLine()),b=1;
+            if(a>0 && a<31)
+            for(int i=1;i<=a;i++)
+            {
+                b = b * 2;
+            }
+            Console.WriteLine(b);
         }
     }
 }

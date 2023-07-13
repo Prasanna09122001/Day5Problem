@@ -8,7 +8,8 @@ namespace Day5Problem
         {
             Console.WriteLine("Solution for the Day Five Problem");
             //CoinFlip.play();
-            CoinFlip.Leap();
+          //  CoinFlip.Leap();
+            CoinFlip.Powerof2();
         }
     }
 }
