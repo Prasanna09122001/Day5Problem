@@ -13,7 +13,8 @@ namespace Day5Problem
             // CoinFlip.swap();
             // CoinFlip.OddorEven();
             //CoinFlip.Largest();
-            CoinFlip.QuotientRemainder();
+            //CoinFlip.QuotientRemainder();
+            CoinFlip.PrimeNumber();
         }
     }
 }

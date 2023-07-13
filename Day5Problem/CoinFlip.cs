@@ -102,5 +102,21 @@ namespace Day5Problem
             d = a % b;
             Console.WriteLine("Quotient = " + c + " Remainder = " + d);
         }
+        public static void PrimeNumber()
+        {
+            Console.WriteLine("Enter the Number to be find the Prime Factor of the number");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int n = a;
+            Console.Write("The PrimeFactor of the Number is ");
+            for(int i=2;i<n;i++)
+            {
+                if(a%i==0)
+                {
+                    a = a / i;
+                    Console.Write(i  + " ");
+                    i--;
+                }
+            }
+        }
     }
 }
