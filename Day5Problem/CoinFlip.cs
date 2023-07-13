@@ -66,5 +66,18 @@ namespace Day5Problem
             Console.Write("Numbers after swapped ");
             Console.WriteLine(a + "," + b);
         }
+        public static void OddorEven()
+        {
+            Console.WriteLine("Enter the Number to be checked for Odd or Even");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if(a%2==0)
+            {
+                Console.WriteLine("It is a Even Number");
+            }
+            else
+            {
+                Console.WriteLine("It is a odd Number");
+            }
+        }
     }
 }

@@ -10,7 +10,8 @@ namespace Day5Problem
             //CoinFlip.play();
             //  CoinFlip.Leap();
             //  CoinFlip.Powerof2();
-            CoinFlip.swap();
+            // CoinFlip.swap();
+            CoinFlip.OddorEven();
         }
     }
 }
