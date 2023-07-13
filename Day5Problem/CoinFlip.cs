@@ -132,5 +132,14 @@ namespace Day5Problem
                 Console.WriteLine("It is a Consonant");
             }
         }
+        public static void Harmonics()
+        {
+            Console.WriteLine("Enter the number for the Harmonics");
+            int a = Convert.ToInt32(Console.ReadLine());
+            for(int i =1;i<=a;i++)
+            {
+                Console.WriteLine("1/"+i);
+            }
+        }
     }
 }
