@@ -79,5 +79,18 @@ namespace Day5Problem
                 Console.WriteLine("It is a odd Number");
             }
         }
+        public static void Largest()
+        {
+            Console.WriteLine("Enter the Three Number ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
+            if (a > b && b > c)
+                Console.WriteLine(a +" is Greatest");
+            if (b > c && b > a)
+                Console.WriteLine(b +" is Greatest");
+            if (c > a && c > b)
+                Console.WriteLine(c +" is Greatest");
+        }
     }
 }

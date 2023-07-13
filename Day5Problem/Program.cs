@@ -11,7 +11,8 @@ namespace Day5Problem
             //  CoinFlip.Leap();
             //  CoinFlip.Powerof2();
             // CoinFlip.swap();
-            CoinFlip.OddorEven();
+            // CoinFlip.OddorEven();
+            CoinFlip.Largest();
         }
     }
 }
