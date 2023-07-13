@@ -92,5 +92,15 @@ namespace Day5Problem
             if (c > a && c > b)
                 Console.WriteLine(c +" is Greatest");
         }
+        public static void QuotientRemainder()
+        {
+            Console.WriteLine("Write the Two number that to be divided");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            float c, d;
+            c = a / b;
+            d = a % b;
+            Console.WriteLine("Quotient = " + c + " Remainder = " + d);
+        }
     }
 }
